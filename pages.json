@@ -1,0 +1,111 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+
+
+
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+
+		{
+			"path": "pages/robot/robot",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+
+
+
+		{
+			"path": "pages/welcome/welcome",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+
+		{
+			"path": "pages/article/article",
+			"style": {
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true
+			}
+		},
+
+		{
+			"path": "pages/comment-detail/comment-detail",
+			"style": {
+				"navigationBarTitleText": "评论详情",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "关闭",
+							"float": "right",
+							"fontSize": "14px"
+						}]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/profile/profile",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/setting/setting",
+			"style": {
+				"navigationBarTitleText": "设置"
+			}
+		},
+		{
+			"path": "pages/privacy/privacy",
+			"style": {
+				"navigationBarTitleText": "隐私设置"
+			}
+		},
+		{
+			"path": "pages/privacy/contact",
+			"style": {
+				"navigationBarTitleText": "联系我们"
+			}
+		},
+		{
+			"path": "pages/privacy/agreement",
+			"style": {
+				"navigationBarTitleText": "用户协议"
+			}
+		},
+		{
+			"path": "pages/privacy/policy",
+			"style": {
+				"navigationBarTitleText": "隐私政策"
+			}
+		},
+		{
+			"path": "pages/privacy/thirdparty",
+			"style": {
+				"navigationBarTitleText": "第三方合作目录"
+			}
+		},
+		{
+			"path": "pages/privacy/collectlist",
+			"style": {
+				"navigationBarTitleText": "个人信息收集清单"
+			}
+		}
+
+
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {}
+
+}
