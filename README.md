@@ -163,7 +163,7 @@ npm run build
 如有问题或建议，请通过以下方式联系：
 
 - 项目地址: [https://xingqi.online/#/](https://xingqi.online/#/)
-- 邮箱: [联系邮箱]
+- 邮箱: [联系邮箱]shelbie@foxmail.com 
 
 ---
 
