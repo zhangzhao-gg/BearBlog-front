@@ -32,13 +32,7 @@ const store = new Vuex.Store({
 	state: {
 		// 如果上面从本地获取的lifeData对象下有对应的属性，就赋值给state中对应的变量
 		// 加上vuex_前缀，是防止变量名冲突，也让人一目了然
-		// baseUrl: 'http://8.134.34.88:8080/api'
-		// baseUrl: 'https://njtech.zongdago.com/api'
-		// baseUrl:'http://49.235.73.210/api'
 
-
-		//baseUrl: 'http://117.72.67.58/api',   //本地访问服务器
-		//baseUrl: 'https://xingqi.online/api', //服务器部署时
 		baseUrl: 'http://127.0.0.1:8080/api', //本地运行
 		WebSocketUrl:'',
 
